@@ -44,9 +44,9 @@
     "intro": {
       "text": "Information/intro.md"
     },
-    "assets": {
+    "Scripts": {
       "host01": [
-        { "file": "Scripts/prepare.sh", "target": "/root/","chmod": "+x" }
+        { "file": "prepare.sh", "target": "/root/","chmod": "+x" }
       ]
     },
     "finish": {
