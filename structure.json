@@ -1,7 +1,7 @@
 {
   "items": [
-    { "path": "Continuous Integration", "title": "Continuous Integration" },
-    { "path": "Continuous Deployment", "title": "Continuous Deployment" },
-    { "path": "Continuous Monitoring", "title": "Continuous Monitoring" }
+    { "path": "01-Continuous-Integration", "title": "Continuous Integration" },
+    { "path": "02-Continuous-Deployment", "title": "Continuous Deployment" },
+    { "path": "03-Continuous-Monitoring", "title": "Continuous Monitoring" }
   ]
 }
