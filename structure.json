@@ -1,7 +1,7 @@
 {
   "items": [
-    { "path": "Continuous Integration" },
-    { "path": "Continuous Deployment", "title": "Override title of course1" },
-    { "path": "Continuous Monitoring" }
+    { "path": "Continuous Integration", "title": "Continuous Integration" },
+    { "path": "Continuous Deployment", "title": "Continuous Deployment" },
+    { "path": "Continuous Monitoring", "title": "Continuous Monitoring" }
   ]
 }
