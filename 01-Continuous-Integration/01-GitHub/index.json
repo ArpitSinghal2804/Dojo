@@ -1,0 +1,7 @@
+{
+  "title": "GitHub",
+  "description": "Git and GitHub",
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
