@@ -1,6 +1,6 @@
 # Peer review
 
-![Dan](../Images/dan.png)
+![Dan](../../assets/yellow-belt-devops-dojo/version-control/dan.png)
 
 > OK, you submitted your changes. They are ready to be reviewed by someone
 > before they get merged.
