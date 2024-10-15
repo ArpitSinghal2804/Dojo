@@ -1,7 +1,0 @@
-{
-  "title": "Jenkins",
-  "description": "Jenkins",
-  "backend": {
-    "imageid": "ubuntu"
-  }
-}
