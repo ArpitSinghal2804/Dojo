@@ -1,0 +1,1 @@
+Look at you, setting up vault, putting secrets in it, and then programmatically pulling them out via Ansible.

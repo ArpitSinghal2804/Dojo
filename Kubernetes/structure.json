@@ -1,9 +1,0 @@
-{
-  "items": [
-    { "path": "playground" },
-    { "path": "persistentVolumes" },
-    { "path": "pod-intro" },
-    { "path": "deployment-basics" },
-    { "path": "kubernetes-dashboard" }
-  ]
-}

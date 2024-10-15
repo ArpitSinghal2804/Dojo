@@ -1,0 +1,31 @@
+{
+    "items": [
+      { "path": "01-system-checking" },
+      { "path": "02-checking-kernel-and-packages" },
+      { "path": "03-checking-disk-and-mount-information" },
+      { "path": "04-checking-networking-and-ports" },
+      { "path": "05-ssh-and-scp" },
+      { "path": "06-screen-commands" },
+      { "path": "06.5-tmux-commands" },
+      { "path": "07-working-with-DNS" },
+      { "path": "08-variables-conditional-logic" },
+      { "path": "09-conditional-and-counting-loops"},
+      { "path": "100-configure-nfs-share" },
+      { "path": "101-configure-apache-server" },
+      { "path": "102-monitoring-linux-logs" },
+      { "path": "103-monitoring-linux-telemetry" },
+      { "path": "104-monitoring-linux-Influx-Grafana" },
+      { "path": "105-install-antivirus" },
+      { "path": "106-install-slurm" },
+      { "path": "107-server-startup-process" },
+      { "path": "201-attempted-user-login" },
+      { "path": "202-attempted-sudo-access" },
+      { "path": "203-updating-golden-image" },
+      { "path": "204-building-a-chroot-jail" },
+      { "path": "205-setting-up-uncomplicated-firewall-UFW" },
+      { "path": "206-setting-up-rsyslog" },
+      { "path": "207-OS_STIG_Scan_with_SCC_Tool" },
+      { "path": "208-Firefox_STIG_Scan_with_SCC_Tool"},
+      { "path": "301-Influx-Grafana-data-visualization" }
+    ]
+  }
