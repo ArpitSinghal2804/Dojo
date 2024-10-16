@@ -2,20 +2,20 @@
   "title": "GitHub",
   "description": "Learn how to push code into GitHub",
   "details": {
-    "intro": {
-      "text": "intro.md"
-    },
     "steps": [
       {
         "title": "GitHub",
         "text": "text.md"
       }
-    ]
-  },
-  "assets": {
-    "host01": [
-      { "file": "prepare.sh", "target": "/root/","chmod": "+x" }
-    ]
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "assets": {
+      "host01": [
+        { "file": "prepare.sh", "target": "/root/", "chmod": "+x" }
+      ]
+    }
   },
   "backend": {
     "imageid": "ubuntu"
