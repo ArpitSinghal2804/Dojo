@@ -31,7 +31,7 @@ git remote add origin https://github.com/ArpitSinghal2804/dojogit.git
 ```{{exec}}
 
 ```plain
-git branch fb1 main
+git checkout -b fb1
 ```{{exec}}
 
 ```plain
