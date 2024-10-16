@@ -1,13 +1,13 @@
 {
-  "title": "Git",
-  "description": "Learn how to create a Git Commit",
+  "title": "Git Merge",
+  "description": "Git Merge",
   "details": {
     "intro": {
       "text": "intro.md"
     },
     "steps": [
       {
-        "title": "Git",
+        "title": "Git Merge",
         "text": "step1/text.md"
       }
     ]

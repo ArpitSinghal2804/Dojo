@@ -1,6 +1,8 @@
-
-Create a .txt file and commit the file.
-Check the status as well.
+1. Create a text file - file.txt
+2. Initialize Git
+3. Add the file in Staging
+4. Commit the file
+5. Check the status
 
 <br>
 <details><summary>Solution</summary>
@@ -8,9 +10,21 @@ Check the status as well.
 
 ```plain
 touch file.txt
+```{{exec}}
+
+```plain
 git init
-git add .
-git commit -m " added in local repo"
+```{{exec}}
+
+```plain
+git add file.txt
+```{{exec}}
+
+```plain
+git commit -m "Initial Commit"
+```{{exec}}
+
+```plain
 git status
 ```{{exec}}
 

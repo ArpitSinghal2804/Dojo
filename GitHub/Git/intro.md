@@ -1,4 +1,3 @@
-
 <br>
 
-Learn Git
+Learn how to create a Git Commit
