@@ -1,13 +1,13 @@
 {
-  "title": "Git Merge",
-  "description": "Git Merge",
+  "title": "GitHub",
+  "description": "Learn how to push code into GitHub",
   "details": {
     "intro": {
       "text": "intro.md"
     },
     "steps": [
       {
-        "title": "Git Merge",
+        "title": "GitHub",
         "text": "step1/text.md"
       }
     ]
