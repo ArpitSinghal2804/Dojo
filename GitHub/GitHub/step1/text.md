@@ -23,8 +23,8 @@ git init
 
 
 ```plain
-git config --global user.name "{Your Username}"
-git config --global user.email "{Your Email}"
+git config --global user.name {Your Username}
+git config --global user.email {Your Email}
 ```{{exec}}
 
 ```plain
