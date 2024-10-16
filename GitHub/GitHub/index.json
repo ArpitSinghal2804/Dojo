@@ -12,6 +12,11 @@
       }
     ]
   },
+  "assets": {
+    "host01": [
+      { "file": "prepare.sh", "target": "/root/","chmod": "+x" }
+    ]
+  },
   "backend": {
     "imageid": "ubuntu"
   }
