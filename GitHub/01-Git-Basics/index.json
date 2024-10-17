@@ -1,5 +1,5 @@
 {
-  "title": "Git",
+  "title": "Git Basics",
   "description": "Learn how to create a Git Commit",
   "details": {
     "intro": {
@@ -7,8 +7,8 @@
     },
     "steps": [
       {
-        "title": "Git",
-        "text": "step1/text.md"
+        "title": "Git Commit",
+        "text": "text.md"
       }
     ]
   },

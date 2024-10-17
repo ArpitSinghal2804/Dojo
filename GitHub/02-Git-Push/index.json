@@ -1,10 +1,10 @@
 {
-  "title": "GitHub",
+  "title": "Git Push",
   "description": "Learn how to push code into GitHub",
   "details": {
     "steps": [
       {
-        "title": "GitHub",
+        "title": "Push Code into GitHub",
         "text": "text.md"
       }
     ],

@@ -1,5 +1,5 @@
 {
-  "title": "Clone Repository",
+  "title": "Git Clone",
   "description": "Learn how to clone a repository",
   "details": {
     "intro": {
@@ -8,8 +8,8 @@
     "steps": [
       {
         "title": "Clone a repository",
-        "text": "step1/text.md",
-        "verify": "step1/verify.sh"
+        "text": "text.md",
+        "verify": "assets/verify.sh"
       }
     ]
   },
