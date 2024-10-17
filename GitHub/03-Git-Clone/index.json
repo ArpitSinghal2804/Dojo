@@ -8,8 +8,7 @@
     "steps": [
       {
         "title": "Clone a repository",
-        "text": "text.md",
-        "verify": "assets/verify.sh"
+        "text": "text.md"
       }
     ]
   },

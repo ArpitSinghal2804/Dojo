@@ -1,0 +1,23 @@
+{
+  "title": "Git Commit",
+  "description": "Learn how to create a Git Commit",
+  "details": {
+    "steps": [
+      {
+        "title": "Create a Git Commit",
+        "text": "text.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "assets": {
+      "host01": [
+        { "file": "prepare.sh", "target": "/root/", "chmod": "+x" }
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

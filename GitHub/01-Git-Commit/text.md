@@ -1,3 +1,10 @@
+Pre-Requisitie: 
+Please provide your GitHub Username and Email.
+
+```plain
+./prepare.sh
+```{{exec}}
+
 1. Create a text file - file.txt
 2. Initialize Git
 3. Add the file in Staging

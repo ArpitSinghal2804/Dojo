@@ -8,10 +8,10 @@ Please provide your GitHub Repository, Username and Email.
 1. Create a text file - file.txt
 2. Add the file in Staging
 3. Commit the file
-4. Create a Feature Branch
-5. Push the changes to Feature Branch
-6. Provide Username and Password for authentication.
-7. Verify the changes in GitHub Repository and cleanup the branch.
+4. Push the changes
+5. Provide Username and Password for authentication
+
+Verify the changes in GitHub Repository
 
 <br>
 <details><summary>Solution</summary>
@@ -30,11 +30,7 @@ git commit -m "Initial Commit"
 ```{{exec}}
 
 ```plain
-git checkout -b git_learning
-```{{exec}}
-
-```plain
-git push -u origin git_learning
+git push -u origin main
 ```{{exec}}
 
 </details>
