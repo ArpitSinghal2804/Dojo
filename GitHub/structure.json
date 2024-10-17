@@ -1,0 +1,7 @@
+{
+    "items": [
+        { "path": "01-Git-Basics" },
+        { "path": "02-Git-Push" },
+        { "path": "03-Git-Clone" }
+    ]
+}
