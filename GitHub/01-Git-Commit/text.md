@@ -9,7 +9,7 @@ Please provide your GitHub Username and Email.
 2. Initialize Git
 3. Add the file in Staging
 4. Commit the file
-5. Check the status
+5. Check the Logs
 
 <br>
 <details><summary>Solution</summary>
@@ -32,7 +32,7 @@ git commit -m "Initial Commit"
 ```{{exec}}
 
 ```plain
-git status
+git log
 ```{{exec}}
 
 </details>
