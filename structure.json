@@ -1,6 +1,5 @@
 {
     "items": [
-        { "path": "GitHub" },
-        { "path": "Docker" }
+        { "path": "GitHub" }
     ]
 }
