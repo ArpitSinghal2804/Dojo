@@ -1,13 +1,5 @@
-
-Remove CMD command from Dockerfile and add ENTRYPOINT command that will run the same `echo hi, from container!` command.
-
-Build image `entrypoint-echo` using `/root/Dockerfile`.
-Check what is ENTRYPOINT of the newly created `entrypoint-echo` image.
-
-Run the `entrypoint-echo` container:
-- Overwrite ENTRYPOINT with `date` via CLI
-- Set the CMD to `date` via CLI
-
+Build image `entrypoint` using `/root/Dockerfile`.
+Check what is ENTRYPOINT of the newly created `entrypoint` image.
 
 <br>
 <details><summary>Info</summary>
@@ -54,36 +46,23 @@ without altering the ENTRYPOINT, will be interpreted as additional parameters.
 
 <br>
 
-Modify `/root/Dockerfile`:
-
-<br>
-
-```plain
-cat > /root/Dockerfile <<EOF
-FROM alpine
-ENTRYPOINT ["echo", "hi, from container!"]
-EOF
-```{{exec}}
-
-<br>
-
 Build docker image `/root/Dockerfile`:
 
 <br>
 
 ```plain
-docker build -t entrypoint-echo .
+cat <<EOF >> /root/Dockerfile
+FROM ubuntu:latest
+ENTRYPOINT ["echo", "Hello, World!"]
+EOF
 ```{{exec}}
-
-<br>
-
-Explore ENTRYPOINT of `entrypoint-echo`:
-
-<br>
 
 ```plain
-docker inspect entrypoint-echo | jq .[0].ContainerConfig.Entrypoint
+docker build -t entrypoint .
 ```{{exec}}
+
+<br>
+
 
 <br>
 
@@ -92,27 +71,17 @@ Run the container with default values:
 <br>
 
 ```plain
-docker run --rm entrypoint-echo
+docker run entrypoint
 ```{{exec}}
 
 <br>
 
-Run the container with date:
+Run the container with updated ENTRYPOINT command:
 
 <br>
 
 ```plain
-docker run --rm --entrypoint date entrypoint-echo
-```{{exec}}
-
-<br>
-
-Run the container with entrypoint `date`:
-
-<br>
-
-```plain
-docker run --rm entrypoint-echo date
+docker run entrypoint echo "Goodbye, World!"
 ```{{exec}}
 
 

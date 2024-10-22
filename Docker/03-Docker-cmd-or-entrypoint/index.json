@@ -10,10 +10,6 @@
       {
         "title": "Using ENTRYPOINT",
         "text": "step2/text.md"
-      },
-      {
-        "title": "Using ENTRYPOINT and CMD",
-        "text": "step3/text.md"
       }
     ]
   },

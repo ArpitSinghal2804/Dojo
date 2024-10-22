@@ -1,11 +1,6 @@
 
-Build image `cmd-echo` using `/root/Dockerfile`.
-Check what is CMD of the newly created `cmd-echo` image.
-
-Run the `cmd-echo` container:
-- Don't modify Dockerfile
-- Overwrite CMD with `date` via CLI
-- Set the ENTRYPOINT to `date` via CLI
+Build image `cmd` using `/root/Dockerfile`.
+Check what is CMD of the newly created `cmd` image.
 
 <br>
 <details><summary>Info</summary>
@@ -28,7 +23,7 @@ However, it can be used as a way to provide an executable and defaults.
 <br>
 
 ```plain
-Use docker run --rm cmd-image to remove container after it finished.
+Use docker run --rm image to remove container after it finished.
 
 Use docker inspect <image-name> to get details about the image's CMD and ENTRYPOINT.
 ```
@@ -47,18 +42,18 @@ Build docker image `/root/Dockerfile`:
 <br>
 
 ```plain
-docker build -t cmd-echo .
+cat <<EOF >> /root/Dockerfile
+FROM ubuntu:latest
+CMD ["echo", "Hello, World!"]
+EOF
 ```{{exec}}
-
-<br>
-
-Explore CMD of `cmd-echo`:
-
-<br>
 
 ```plain
-docker inspect cmd-echo | jq .[0].ContainerConfig.Cmd
+docker build -t cmd .
 ```{{exec}}
+
+<br>
+
 
 <br>
 
@@ -67,7 +62,7 @@ Run the container with default values:
 <br>
 
 ```plain
-docker run --rm cmd-echo
+docker run cmd
 ```{{exec}}
 
 <br>
@@ -77,17 +72,7 @@ Run the container with updated CMD command:
 <br>
 
 ```plain
-docker run --rm cmd-echo date
-```{{exec}}
-
-<br>
-
-Run the container with ENTRYPOINT `date`:
-
-<br>
-
-```plain
-docker run --rm --entrypoint date cmd-echo
+docker run cmd echo "Goodbye, World!"
 ```{{exec}}
 
 
