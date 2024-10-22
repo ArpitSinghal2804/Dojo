@@ -37,9 +37,11 @@ Create the `/root/Dockerfile`:
 <br>
 
 ```plain
+cat <<EOF >> /root/Dockerfile
 FROM bash
 CMD ["ping", "killercoda.com"]
-```
+EOF
+```{{exec}}
 
 <br>
 
