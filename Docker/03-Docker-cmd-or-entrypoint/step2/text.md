@@ -81,7 +81,7 @@ Run the container with updated ENTRYPOINT command:
 <br>
 
 ```plain
-docker run entrypoint echo "Goodbye, World!"
+docker run entrypoint "Goodbye, World!"
 ```{{exec}}
 
 
