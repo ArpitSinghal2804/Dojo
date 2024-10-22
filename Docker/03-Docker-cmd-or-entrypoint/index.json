@@ -2,36 +2,20 @@
   "title": "CMD or ENTRYPOINT",
   "description": "Feel the difference between CMD and ENTRYPOINT",
   "details": {
-    "intro": {
-      "text": "intro.md",
-      "background": "init/background.sh",
-      "foreground": "init/foreground.sh"
-    },
     "steps": [
       {
         "title": "Using CMD",
-        "text": "step1/text.md",
-        "verify": "step1/verify.sh"
+        "text": "step1/text.md"
       },
       {
         "title": "Using ENTRYPOINT",
-        "text": "step2/text.md",
-        "verify": "step2/verify.sh"
+        "text": "step2/text.md"
       },
       {
         "title": "Using ENTRYPOINT and CMD",
-        "text": "step3/text.md",
-        "verify": "step3/verify.sh"
+        "text": "step3/text.md"
       }
-    ],
-    "assets": {
-      "host01": [
-        {"file": "init.sh", "target": "/ks", "chmod": "+x"},
-        {"file": "k8s.sh", "target": "/ks", "chmod": "+x"},
-        {"file": "wait-init.sh", "target": "/ks", "chmod": "+x"},
-        {"file": "solution.sh", "target": "/var/run/kc-internal", "chmod": "+x"}
-      ]
-    }
+    ]
   },
   "backend": {
     "imageid": "ubuntu"
