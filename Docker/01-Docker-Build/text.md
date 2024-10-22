@@ -65,4 +65,6 @@ Run the image:
 docker run --name my-ping pinger
 ```{{exec}}
 
+> Press Ctrl+c to exit the running container
+
 </details>
