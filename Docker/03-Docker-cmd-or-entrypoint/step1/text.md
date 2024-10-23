@@ -1,6 +1,4 @@
-
 Build image `cmd` using `/root/Dockerfile`.
-Check what is CMD of the newly created `cmd` image.
 
 <br>
 <details><summary>Info</summary>
@@ -30,11 +28,8 @@ Use docker inspect <image-name> to get details about the image's CMD and ENTRYPO
 
 </details>
 
-
 <br>
 <details><summary>Solution</summary>
-<br>
-
 <br>
 
 Build docker image `/root/Dockerfile`:
@@ -51,9 +46,6 @@ EOF
 ```plain
 docker build -t cmd .
 ```{{exec}}
-
-<br>
-
 
 <br>
 
@@ -74,6 +66,5 @@ Run the container with updated CMD command:
 ```plain
 docker run cmd echo "Goodbye, World!"
 ```{{exec}}
-
 
 </details>

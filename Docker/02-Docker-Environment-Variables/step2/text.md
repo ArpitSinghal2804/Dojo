@@ -1,10 +1,7 @@
-
-
 Launch a container named `sample-app-2` using the existing image `sample-image`, introducing the environment variables `key2=value2` and `key1=new-value1`. 
 Ensure the Dockerfile remains unchanged.
 
 List the environment variables within the instantiated `sample-app-2` container.
-
 
 <br>
 <details><summary>Info</summary>
@@ -27,11 +24,8 @@ Use -e flag when running the container.
 
 </details>
 
-
 <br>
 <details><summary>Solution</summary>
-<br>
-
 <br>
 
 Run the image with new environment variables:

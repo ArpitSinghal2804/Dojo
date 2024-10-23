@@ -9,7 +9,6 @@ Instantiate a container named `sample-app`.
 
 Confirm the presence of the environment variable `key1=value1` within the container.
 
-
 <br>
 <details><summary>Info</summary>
 <br>
@@ -37,11 +36,8 @@ Use -d (detached) flag when running the container.
 
 </details>
 
-
 <br>
 <details><summary>Solution</summary>
-<br>
-
 <br>
 
 Create `/root/Dockerfile`:

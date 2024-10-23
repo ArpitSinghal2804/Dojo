@@ -1,5 +1,4 @@
 Build image `entrypoint` using `/root/Dockerfile`.
-Check what is ENTRYPOINT of the newly created `entrypoint` image.
 
 <br>
 <details><summary>Info</summary>
@@ -34,16 +33,12 @@ Use docker inspect <image-name> to get details about the image's CMD and ENTRYPO
 ```plain
 Once ENTRYPOINT is set, any CMD overwrites, 
 without altering the ENTRYPOINT, will be interpreted as additional parameters.
-(Compare output of the overwriting CMD here with the previous step)
 ```
 
 </details>
 
-
 <br>
 <details><summary>Solution</summary>
-<br>
-
 <br>
 
 Build docker image `/root/Dockerfile`:
@@ -60,9 +55,6 @@ EOF
 ```plain
 docker build -t entrypoint .
 ```{{exec}}
-
-<br>
-
 
 <br>
 
@@ -83,6 +75,5 @@ Run the container with updated ENTRYPOINT command:
 ```plain
 docker run entrypoint "Goodbye, World!"
 ```{{exec}}
-
 
 </details>

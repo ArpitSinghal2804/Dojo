@@ -1,4 +1,3 @@
-
 Create a new file `/root/Dockerfile` to build a container image from. It should:
 * use `bash` as base
 * run `ping killercoda.com`
@@ -18,13 +17,9 @@ Dockerfile: List of commands from which an Image can be build
 Image: Binary file which includes all data/requirements to be run as a Container
 
 Container: Running instance of an Image
-
-Registry: Place where we can push/pull Images to/from
 ```
 
 </details>
-
-
 
 <br>
 <details><summary>Solution</summary>
