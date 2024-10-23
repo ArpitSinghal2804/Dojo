@@ -46,7 +46,7 @@ Build docker image `/root/Dockerfile`:
 <br>
 
 ```plain
-cat <<EOF >> /root/Dockerfile
+cat <<EOF > /root/Dockerfile
 FROM ubuntu:latest
 ENTRYPOINT ["echo", "Hello, World!"]
 EOF
