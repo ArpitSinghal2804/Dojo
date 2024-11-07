@@ -7,7 +7,7 @@ Delete the PV `cool-volume`
 <br>
 
 ```plain
-k delete pv cool-volume
+kubectl delete pv cool-volume
 ```{{exec}}
 
 </details>

@@ -10,7 +10,7 @@ Create a pod called `my-pod` of image `nginx:alpine`
 <br>
 
 ```plain
-k run my-pod --image=nginx:alpine
+kubectl run my-pod --image=nginx:alpine
 ```{{exec}}
 
 </details>

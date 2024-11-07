@@ -6,7 +6,7 @@ Delete the pod called `my-pod`
 <br>
 
 ```plain
-k delete pod my-pod
+kubectl delete pod my-pod
 ```{{exec}}
 
 </details>
