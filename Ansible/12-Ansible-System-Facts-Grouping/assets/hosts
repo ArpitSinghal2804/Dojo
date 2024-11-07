@@ -1,3 +1,0 @@
-[servers]
-controlplane env=prod
-node01 env=dev

@@ -1,1 +1,0 @@
-#Welcome to ProLUG Kafka deployment into Kubernetes

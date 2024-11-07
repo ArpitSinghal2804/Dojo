@@ -1,1 +1,0 @@
-Look at you using Terraform. You created a terraform deploy and used it to create images and containers on your host.

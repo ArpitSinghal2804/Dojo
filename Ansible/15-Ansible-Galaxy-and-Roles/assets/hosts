@@ -1,3 +1,0 @@
-[servers]
-controlplane env=prod app=db
-node01 env=dev app=web

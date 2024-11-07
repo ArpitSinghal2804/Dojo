@@ -1,1 +1,0 @@
-Look at you, starting Vault UI! You have configured vault from within the UI and can use the rest of the time in this lab to continue exploring Vault features.

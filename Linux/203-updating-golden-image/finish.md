@@ -1,2 +1,0 @@
-Look at you, learning Linux Security!
-You updated a golden image so the new systems you deploy are patched and do not introduce more vulnerabilities into the environment. You further removed older packages that did not meet the security baseline.

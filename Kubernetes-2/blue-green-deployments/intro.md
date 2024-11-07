@@ -1,1 +1,0 @@
-#Welcome to ProLUG Kubernetes blue green deployments

@@ -1,1 +1,0 @@
-#Welcome to ProLUG Kubernetes Troubleshooting CKA Lab2
