@@ -13,9 +13,9 @@ Since there are other Kubernetes resources that offer the same scaling mechanism
 
 ```plain
 kubectl scale deployment/my-first-deployment --replicas=2
-```plain
-
 ```{{exec}}
+
+```plain
 kubectl get deployment my-first-deployment
 ```{{exec}}
 
