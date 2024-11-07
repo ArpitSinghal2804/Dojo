@@ -22,20 +22,25 @@ kubectl apply -f - <<EOF
 apiVersion: v1
 kind: PersistentVolume
 metadata:
-  name: cool-volume #changed
-  namespace: default #added
+  name: cool-volume
+  namespace: default
   labels:
     type: local
 spec:
-  storageClassName: manual #make sure to include
+  storageClassName: manual
   capacity:
-    storage: 100Mi #changed
+    storage: 100Mi
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: "/tmp/my-cool-vol" #changed
+    path: "/tmp/my-cool-vol"
 
 EOF
+```{{exec}}
+
+
+```plain
+kubectl get pv
 ```{{exec}}
 
 </details>
