@@ -12,9 +12,11 @@ Check to make sure the deployment is healthy.
 <br>
 
 ```plain
-k create deployment my-first-deployment --image=nginx:alpine
+kubectl create deployment my-first-deployment --image=nginx:alpine
+```{{exec}}
 
-k get deployment my-first-deployment
+```plain
+kubectl get deployment my-first-deployment
 ```{{exec}}
 
 </details>

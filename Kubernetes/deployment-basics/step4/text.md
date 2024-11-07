@@ -10,9 +10,11 @@ Change the image `my-first-deployment` runs from `nginx:alpine` to `httpd:alpine
 <br>
 
 ```plain
-k set image deployment my-first-deployment nginx=httpd:alpine
+kubectl set image deployment my-first-deployment nginx=httpd:alpine
+```{{exec}}
 
-k get deployment my-first-deployment
+```plain
+kubectl get deployment my-first-deployment
 ```{{exec}}
 
 </details>
