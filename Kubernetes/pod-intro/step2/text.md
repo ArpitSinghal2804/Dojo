@@ -5,8 +5,14 @@ Delete the pod called `my-pod`
 <details><summary>Solution</summary>
 <br>
 
+Delete the Pod
 ```plain
 kubectl delete pod my-pod
+```{{exec}}
+
+Verify the Pod deletion
+```plain
+kubectl get pod
 ```{{exec}}
 
 </details>

@@ -21,7 +21,7 @@ kubectl get pod
 
 Check the Image
 ```plain
-kubectl describe pod my-pod | grep Image
+kubectl describe pod my-pod | grep Image:
 ```{{exec}}
 
 </details>
