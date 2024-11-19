@@ -1,0 +1,25 @@
+{
+    "title": "Ansible Intro",
+    "description": "Install Ansible and verify functionality",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "title": "Install Ansible",
+          "text": "step1/text.md"
+        },
+        {
+          "title": "Check modules and syntax",
+          "text": "step2/text.md"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-2nodes"
+    }
+  }

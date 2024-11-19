@@ -2,6 +2,7 @@
     "items": [
         { "path": "GitHub" },
         { "path": "Docker" },
-        { "path": "Kubernetes" }
+        { "path": "Kubernetes" },
+        { "path": "Ansible" }
     ]
 }
