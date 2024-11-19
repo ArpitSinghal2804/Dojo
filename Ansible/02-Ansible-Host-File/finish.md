@@ -1,1 +1,1 @@
-You solved this challenge!
+You completed this scenario!

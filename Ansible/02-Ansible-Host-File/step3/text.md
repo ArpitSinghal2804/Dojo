@@ -4,7 +4,6 @@ Update the /root/hosts file
 
 use ansible-inventory commands to view the file values.
 
-
 <br>
 <details>
 <summary>Solution</summary>
@@ -14,6 +13,7 @@ Update the /root/hosts file to have a test and prod environment.
 vi /root/hosts and then esc : wq to save.
 
 ```plain
+cat <<EOF > /root/hosts
 [servers]
 controlplane
 node01
@@ -29,7 +29,9 @@ node01prod  type=server
 [non-prod:children]
 servers
 test_env
-```
+
+EOF
+```{{exec}}
 
 Now that you've updated the inventory for the new systems, view the inventory with ansible-inventory to see the host groups.
 

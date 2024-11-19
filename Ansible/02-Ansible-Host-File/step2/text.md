@@ -1,6 +1,5 @@
 Verify connectivity to all hosts with ping module and save the output to /root/ping_check.
 
-
 <br>
 <details>
 <summary>Solution</summary>
