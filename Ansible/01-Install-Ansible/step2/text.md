@@ -18,12 +18,12 @@ ansible-doc -l | wc -l
 ansible-doc -l | wc -l > /root/modules
 ```{{exec}}
 
-Read the documentation on setup module (may have to hit q to exit)
+Read the documentation on setup module (Hit q to exit)
 ```plain
 ansible-doc -s setup
 ```{{exec}}
 
-Read the documentation on copy module (may have to hit q to exit)
+Read the documentation on copy module (Hit q to exit)
 ```plain
 ansible-doc -s copy
 ```{{exec}}
