@@ -1,5 +1,5 @@
 {
-    "title": "Ansible Intro",
+    "title": "Ansible host file",
     "description": "Setup Ansible host file and test connectivity",
     "details": {
       "intro": {
