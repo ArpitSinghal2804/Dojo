@@ -13,8 +13,9 @@ Change the image `my-first-deployment` runs from `nginx:alpine` to `httpd:alpine
 kubectl set image deployment my-first-deployment nginx=httpd:alpine
 ```{{exec}}
 
+Check the Image
 ```plain
-kubectl get deployment my-first-deployment
+kubectl describe deployment my-first-deployment | grep Image:
 ```{{exec}}
 
 </details>
