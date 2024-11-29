@@ -1,7 +1,0 @@
-{
-    "items": [
-        { "path": "Pod-Intro" },
-        { "path": "Deployment-Basics" },
-        { "path": "Persistent-Volumes" }
-    ]
-}
