@@ -1,9 +1,10 @@
-Change the image `my-first-deployment` runs from `nginx:alpine` to `httpd:alpine`.
+Change the image `my-first-deployment` from `nginx:alpine` to `httpd:alpine`.
 
 <br>
 <details><summary>Solution</summary>
 <br>
 
+Update the Image
 ```plain
 kubectl set image deployment my-first-deployment nginx=httpd:alpine
 ```{{exec}}

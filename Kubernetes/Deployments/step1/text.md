@@ -6,10 +6,12 @@ Check to make sure the deployment is healthy.
 <details><summary>Solution</summary>
 <br>
 
+Create the Deployment
 ```plain
 kubectl create deployment my-first-deployment --image=nginx:alpine
 ```{{exec}}
 
+Check the Deployment Creation
 ```plain
 kubectl get deployment my-first-deployment
 ```{{exec}}

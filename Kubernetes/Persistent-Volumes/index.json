@@ -1,6 +1,6 @@
 {
   "title": "Persistent Volumes",
-  "description": "Learn to work with persistent volumes",
+  "description": "Learn to create a persistent volume",
   "details": {
     "intro": {
       "text": "intro.md"

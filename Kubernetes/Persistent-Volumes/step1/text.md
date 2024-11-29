@@ -6,6 +6,7 @@ Note: Kubectl doesn't have a create function for PersistentVolumes.
 <details><summary>Solution</summary>
 <br>
 
+Create the PersistentVolume
 ```plain
 kubectl apply -f - <<EOF
 
@@ -28,6 +29,7 @@ spec:
 EOF
 ```{{exec}}
 
+Verify the PersistentVolume
 ```plain
 kubectl get pv cool-volume
 ```{{exec}}
