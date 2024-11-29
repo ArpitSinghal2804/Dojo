@@ -1,6 +1,6 @@
 {
-  "title": "Pod Intro",
-  "description": "Learn to work with pods",
+  "title": "Pod Creation",
+  "description": "Learn to create a pod",
   "details": {
     "intro": {
       "text": "intro.md"

@@ -1,4 +1,3 @@
-
 Delete the pod called `my-pod`
 
 <br>
@@ -12,7 +11,7 @@ kubectl delete pod my-pod
 
 Verify the Pod deletion
 ```plain
-kubectl get pod
+kubectl get pod my-pod
 ```{{exec}}
 
 </details>

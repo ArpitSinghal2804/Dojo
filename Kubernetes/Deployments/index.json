@@ -1,6 +1,6 @@
 {
   "title": "Deployment Basics",
-  "description": "Learn to work with deployments",
+  "description": "Learn to create a deployment",
   "details": {
     "intro": {
       "text": "intro.md"
