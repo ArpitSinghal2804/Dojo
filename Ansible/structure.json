@@ -1,7 +1,7 @@
 {
     "items": [
-      { "path": "01-Install-Ansible" },
-      { "path": "02-Ansible-Host-File" },
-      { "path": "03-Ansible-Playbook-Deploy" }
+        { "path": "Install-Ansible" },
+        { "path": "Ansible-Host-File" },
+        { "path": "Ansible-Playbook-Deploy" }
     ]
-  }
+}
