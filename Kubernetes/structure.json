@@ -1,7 +1,7 @@
 {
     "items": [
-        { "path": "Pod-Intro" },
-        { "path": "Git-Push" },
-        { "path": "Git-Clone" }
+        { "path": "Pod-Creation" },
+        { "path": "Deployments" },
+        { "path": "Persistent-Volumes" }
     ]
 }
