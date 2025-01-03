@@ -7,7 +7,10 @@
         "title": "Clone a repository",
         "text": "text.md"
       }
-    ]
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
   },
   "backend": {
     "imageid": "ubuntu"

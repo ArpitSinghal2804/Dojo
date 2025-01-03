@@ -8,6 +8,9 @@
         "text": "text.md"
       }
     ],
+    "finish": {
+      "text": "finish.md"
+    },
     "assets": {
       "host01": [
         { "file": "prepare.sh", "target": "/root/", "chmod": "+x" }
