@@ -1,5 +1,3 @@
-Inventory is one of the most important parts of system administration. So you want to get it right. Setup and complete the different inventory challenges in this lab.
-
 Create an Ansible file called /root/hosts with the hosts in your network.
 
 servers:

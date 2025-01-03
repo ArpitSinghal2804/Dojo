@@ -1,14 +1,10 @@
-Your team is going to be adding new servers to the environment that haven't been built yet. Update your inventory file at /root/hosts to reflect the new environments.
+Update the /root/hosts file to have a test and prod environment.
 
-Update the /root/hosts file
-
-use ansible-inventory commands to view the file values.
+Use ansible-inventory commands to view the file values.
 
 <br>
 <details>
 <summary>Solution</summary>
-
-Update the /root/hosts file to have a test and prod environment.
 
 vi /root/hosts and then esc : wq to save.
 
@@ -50,6 +46,5 @@ To see that in yaml output.
 ```plain
 ansible-inventory -i /root/hosts --list -y
 ```{{exec}}
-
 
 </details>
