@@ -7,7 +7,10 @@
         "title": "Build a container from scratch",
         "text": "text.md"
       }
-    ]
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
   },
   "backend": {
     "imageid": "ubuntu"

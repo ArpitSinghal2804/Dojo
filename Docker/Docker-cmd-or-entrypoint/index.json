@@ -11,7 +11,10 @@
         "title": "Using ENTRYPOINT",
         "text": "step2/text.md"
       }
-    ]
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
   },
   "backend": {
     "imageid": "ubuntu"
