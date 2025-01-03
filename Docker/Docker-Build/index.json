@@ -2,9 +2,6 @@
   "title": "Building an image",
   "description": "Build a container from scratch",
   "details": {
-    "intro": {
-      "text": "intro.md"
-    },
     "steps": [
       {
         "title": "Build a container from scratch",

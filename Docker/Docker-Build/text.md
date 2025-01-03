@@ -6,7 +6,6 @@ Build the image and tag it as `pinger`.
 
 Run the image (create a container) named `my-ping`.
 
-
 <br>
 <details><summary>Info</summary>
 <br>
@@ -24,11 +23,7 @@ Container: Running instance of an Image
 <br>
 <details><summary>Solution</summary>
 <br>
-
-<br>
-
 Create the `/root/Dockerfile`:
-
 <br>
 
 ```plain
@@ -37,13 +32,10 @@ FROM bash
 CMD ["ping", "killercoda.com"]
 EOF
 ```{{exec}}
-
 <br>
 
 Build the image:
-
 <br>
-
 ```plain
 docker build -t pinger .
 
@@ -51,11 +43,8 @@ docker image ls
 ```{{exec}}
 
 <br>
-
 Run the image:
-
 <br>
-
 ```plain
 docker run --name my-ping pinger
 ```{{exec}}
