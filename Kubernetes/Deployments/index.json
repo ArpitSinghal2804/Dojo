@@ -2,9 +2,6 @@
   "title": "Deployment Basics",
   "description": "Learn to create a deployment",
   "details": {
-    "intro": {
-      "text": "intro.md"
-    },
     "steps": [
       {
         "title": "Create a deployment",

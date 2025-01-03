@@ -25,7 +25,6 @@ Container: Running instance of an Image
 <br>
 Create the `/root/Dockerfile`:
 <br>
-
 ```plain
 cat <<EOF >> /root/Dockerfile
 FROM bash
@@ -33,22 +32,19 @@ CMD ["ping", "killercoda.com"]
 EOF
 ```{{exec}}
 <br>
-
 Build the image:
 <br>
 ```plain
 docker build -t pinger .
-
 docker image ls
 ```{{exec}}
-
 <br>
 Run the image:
 <br>
 ```plain
 docker run --name my-ping pinger
 ```{{exec}}
-
+<br>
 > Press Ctrl+c to exit the running container
-
+<br>
 </details>
