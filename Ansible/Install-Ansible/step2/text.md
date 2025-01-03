@@ -2,7 +2,6 @@ Check ansible-doc and see how many modules you have. Then read the documentation
 
 Save the number of modules you have into the file /root/modules
 
-
 <br>
 <details>
 <summary>Solution</summary>

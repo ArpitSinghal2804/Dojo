@@ -6,7 +6,6 @@
   gather_facts: True
   become: False
   tasks:
-
     - name: Copy deploy.tar.gz over at {{ ansible_date_time.iso8601_basic_short }}
       copy:
         src: /root/deploy.tar.gz
@@ -35,4 +34,3 @@
     - name: Debug and show the variable installer_output
       debug:
         var: installer_output
-

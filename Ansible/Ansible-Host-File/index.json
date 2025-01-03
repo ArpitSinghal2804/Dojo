@@ -1,29 +1,29 @@
 {
-    "title": "Ansible host file",
-    "description": "Setup Ansible host file and test connectivity",
-    "details": {
-      "intro": {
-        "background": "setup.sh"
-      },
-      "steps": [
-        {
-          "title": "Setup Hosts file",
-          "text": "step1/text.md"
-        },
-        {
-          "title": "Check functionality and connectivity",
-          "text": "step2/text.md"
-        },
-        {
-          "title": "Add to inventory for future environments",
-          "text": "step3/text.md"
-        }
-      ],
-      "finish": {
-        "text": "finish.md"
-      }
+  "title": "Ansible host file",
+  "description": "Setup Ansible host file and test connectivity",
+  "details": {
+    "intro": {
+      "background": "setup.sh"
     },
-    "backend": {
-      "imageid": "kubernetes-kubeadm-2nodes"
+    "steps": [
+      {
+        "title": "Setup Hosts file",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Check functionality and connectivity",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Add to inventory for future environments",
+        "text": "step3/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
     }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
   }
+}
