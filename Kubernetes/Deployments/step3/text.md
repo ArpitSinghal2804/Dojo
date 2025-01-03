@@ -3,8 +3,8 @@ Scale `my-first-deployment` down to run 2 replicas.
 Check to make sure all 2 replicas are ready.
 
 <br>
-<details><summary>Solution</summary>
-<br>
+<details>
+<summary>Solution</summary>
 
 Scale down the Deployment
 ```plain

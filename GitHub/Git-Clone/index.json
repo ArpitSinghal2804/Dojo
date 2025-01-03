@@ -2,9 +2,6 @@
   "title": "Git Clone",
   "description": "Learn how to clone a repository",
   "details": {
-    "intro": {
-      "text": "intro.md"
-    },
     "steps": [
       {
         "title": "Clone a repository",

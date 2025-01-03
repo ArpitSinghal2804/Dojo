@@ -1,8 +1,8 @@
 Build image `entrypoint` using `/root/Dockerfile`.
 
 <br>
-<details><summary>Info</summary>
-<br>
+<details>
+<summary>Info</summary>
 
 ```plain
 Documentation: https://docs.docker.com/engine/reference/builder/#entrypoint
@@ -15,8 +15,8 @@ additional defaults that are more likely to be changed.
 </details>
 
 <br>
-<details><summary>Tip 1</summary>
-<br>
+<details>
+<summary>Tip 1</summary>
 
 ```plain
 Use docker run --rm cmd-image to remove container after it finished.
@@ -25,42 +25,45 @@ Use docker inspect <image-name> to get details about the image's CMD and ENTRYPO
 ```
 
 </details>
+
 <br>
-<details><summary>Tip 2</summary>
-<br>
+<details>
+<summary>Tip 2</summary>
+
 ```plain
 Once ENTRYPOINT is set, any CMD overwrites, 
 without altering the ENTRYPOINT, will be interpreted as additional parameters.
 ```
-<br>
+
 </details>
 
 <br>
-<details><summary>Solution</summary>
-<br>
+<details>
+<summary>Solution</summary>
+
 Build docker image `/root/Dockerfile`:
-<br>
+
 ```plain
 cat <<EOF > /root/Dockerfile
 FROM ubuntu:latest
 ENTRYPOINT ["echo", "Hello, World!"]
 EOF
 ```{{exec}}
-<br>
+
 ```plain
 docker build -t entrypoint .
 ```{{exec}}
-<br>
+
 Run the container with default values:
-<br>
+
 ```plain
 docker run entrypoint
 ```{{exec}}
-<br>
+
 Run the container with updated ENTRYPOINT command:
-<br>
+
 ```plain
 docker run entrypoint "Goodbye, World!"
 ```{{exec}}
-<br>
+
 </details>

@@ -3,16 +3,17 @@ Create a deployment called `my-first-deployment` of image `nginx:alpine` in the 
 Check to make sure the deployment is healthy.
 
 <br>
-<details><summary>Solution</summary>
-<br>
+<details>
+<summary>Solution</summary>
+
 Create the Deployment
 ```plain
 kubectl create deployment my-first-deployment --image=nginx:alpine
 ```{{exec}}
-<br>
+
 Check the Deployment Creation
 ```plain
 kubectl get deployment my-first-deployment
 ```{{exec}}
-<br>
+
 </details>

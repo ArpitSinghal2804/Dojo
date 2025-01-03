@@ -2,9 +2,6 @@
   "title": "Persistent Volumes",
   "description": "Learn to create a persistent volume",
   "details": {
-    "intro": {
-      "text": "intro.md"
-    },
     "steps": [
       {
         "title": "Create a PersistentVolume",

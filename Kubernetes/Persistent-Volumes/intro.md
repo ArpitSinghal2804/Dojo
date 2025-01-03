@@ -1,3 +1,0 @@
-PersistentVolumes (PVs) are a way to manage persistent storage resources in a cluster. They represent storage resources that can be provisioned and consumed independently of the lifecycle of pods. PVs are crucial when you need to store data that should persist beyond the lifetime of a pod, such as databases or files that need to survive restarts, re-deployments, or pod failures.
-<br>
-https://kubernetes.io/docs/concepts/storage/persistent-volumes/

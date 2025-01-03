@@ -1,8 +1,8 @@
 Delete the deployment `my-first-deployment`.
 
 <br>
-<details><summary>Solution</summary>
-<br>
+<details>
+<summary>Solution</summary>
 
 Delete the Deployment
 ```plain

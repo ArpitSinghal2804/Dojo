@@ -1,8 +1,8 @@
 Delete the PV `cool-volume`
 
 <br>
-<details><summary>Solution</summary>
-<br>
+<details>
+<summary>Solution</summary>
 
 Delete the PersistentVolume
 ```plain

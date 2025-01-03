@@ -3,8 +3,8 @@ Create a PersistentVolume named `cool-volume` backed by a hostPath `/tmp/my-cool
 Note: Kubectl doesn't have a create function for PersistentVolumes.
 
 <br>
-<details><summary>Solution</summary>
-<br>
+<details>
+<summary>Solution</summary>
 
 Create the PersistentVolume
 ```plain

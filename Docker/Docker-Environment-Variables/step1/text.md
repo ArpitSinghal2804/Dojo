@@ -9,8 +9,9 @@ Instantiate a container named `sample-app`.
 Confirm the presence of the environment variable `key1=value1` within the container.
 
 <br>
-<details><summary>Info</summary>
-<br>
+<details>
+<summary>Info</summary>
+
 ```plain
 Dockerfile: List of commands from which an Image can be build.
 
@@ -23,43 +24,45 @@ Use docker --help to see the list of commands.
 </details>
 
 <br>
-<details><summary>Tip</summary>
-<br>
+<details>
+<summary>Tip</summary>
+
 ```plain
 Use ENV key word to define environment variables in Dockerfile.
 Use -d (detached) flag when running the container.
 ```
-<br>
+
 </details>
 
 <br>
-<details><summary>Solution</summary>
-<br>
+<details>
+<summary>Solution</summary>
+
 Create `/root/Dockerfile`:
-<br>
+
 ```plain
 cat <<EOF >> /root/Dockerfile
 FROM nginx:alpine
 ENV key1=value1
 EOF
 ```{{exec}}
-<br>
+
 Build the image:
-<br>
+
 ```plain
 docker build -t sample-image .
 ```{{exec}}
-<br>
+
 Run the container:
-<br>
+
 ```plain
 docker run -d --name sample-app sample-image
 ```{{exec}}
-<br>
+
 Display the container's environment variables:
-<br>
+
 ```plain
 docker exec sample-app env
 ```{{exec}}
-<br>
+
 </details>

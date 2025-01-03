@@ -1,8 +1,8 @@
 Change the image `my-first-deployment` from `nginx:alpine` to `httpd:alpine`.
 
 <br>
-<details><summary>Solution</summary>
-<br>
+<details>
+<summary>Solution</summary>
 
 Update the Image
 ```plain

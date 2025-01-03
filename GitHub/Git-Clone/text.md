@@ -4,8 +4,8 @@ Clone the following repository into local folder `/root/hellogitworld`
 https://github.com/githubtraining/hellogitworld
 
 <br>
-<details><summary>Solution</summary>
-<br>
+<details>
+<summary>Solution</summary>
 
 ```plain
 cd /root
