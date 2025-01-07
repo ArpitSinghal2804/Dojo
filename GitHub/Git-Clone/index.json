@@ -1,6 +1,6 @@
 {
   "title": "Git Clone",
-  "description": "Learn how to clone a repository",
+  "description": "Creates a copy of a remote Git repository on your local machine, including all its files, history, and branches",
   "details": {
     "steps": [
       {

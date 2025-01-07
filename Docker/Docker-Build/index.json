@@ -1,6 +1,6 @@
 {
   "title": "Building an image",
-  "description": "Build a container from scratch",
+  "description": "A command that creates a Docker image from a Dockerfile, which defines the application's environment, dependencies, and configuration",
   "details": {
     "steps": [
       {

@@ -1,6 +1,6 @@
 {
   "title": "Ansible host file",
-  "description": "Setup Ansible host file and test connectivity",
+  "description": "A configuration file that defines the list of target machines that Ansible will manage, grouping them for specific tasks",
   "details": {
     "intro": {
       "background": "setup.sh"

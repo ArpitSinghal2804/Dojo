@@ -1,6 +1,6 @@
 {
   "title": "Git Commit",
-  "description": "Learn how to create a Git Commit",
+  "description": "Records changes made to the local repository, creating a snapshot of the modified files with a message describing the changes",
   "details": {
     "steps": [
       {

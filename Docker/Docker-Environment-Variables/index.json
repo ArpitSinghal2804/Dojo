@@ -1,6 +1,6 @@
 {
   "title": "Using environment variables",
-  "description": "Run docker container with environment variables",
+  "description": "Refers to environment variables set within a Docker container allowing configuration of the container's runtime environment",
   "details": {
     "steps": [
       {

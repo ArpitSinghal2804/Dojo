@@ -1,6 +1,6 @@
 {
   "title": "Git Push",
-  "description": "Learn how to push code into GitHub",
+  "description": "Uploads local commits to a remote Git repository, updating the remote branch with local changes",
   "details": {
     "steps": [
       {

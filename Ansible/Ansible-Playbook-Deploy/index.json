@@ -1,6 +1,6 @@
 {
   "title": "Ansible Playbooks",
-  "description": "Playbook to deploy an application",
+  "description": "The execution of an Ansible playbook, a YAML file defining a set of tasks to automate system configuration or application deployment on remote hosts",
   "details": {
     "intro": {
       "background": "setup.sh"

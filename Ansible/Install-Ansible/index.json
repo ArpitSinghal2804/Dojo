@@ -1,6 +1,6 @@
 {
   "title": "Ansible Installation",
-  "description": "Install Ansible and verify functionality",
+  "description": "The process of setting up Ansible on a system to enable automation, typically done via package managers like apt, yum or pip",
   "details": {
     "steps": [
       {
