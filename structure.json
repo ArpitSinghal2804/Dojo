@@ -1,0 +1,8 @@
+{
+    "items": [
+      { "path": "Ansible", "title": "Override title of course 1" },
+      { "path": "Docker", "title": "Override title of course 2" },
+      { "path": "GitHub", "title": "Override title of course 3" },
+      { "path": "Kubernetes", "title": "Override title of course 4" }
+    ]
+}
