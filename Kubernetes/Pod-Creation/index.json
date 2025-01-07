@@ -1,6 +1,6 @@
 {
   "title": "Pod Creation",
-  "description": "Learn to create a pod",
+  "description": "The smallest and simplest Kubernetes deployment unit, encapsulating one or more containers that share storage, network, and a specification for running the containers",
   "details": {
     "steps": [
       {

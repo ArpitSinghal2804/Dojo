@@ -1,6 +1,6 @@
 {
   "title": "Persistent Volumes",
-  "description": "Learn to create a persistent volume",
+  "description": "A piece of storage in Kubernetes that has been provisioned by an administrator or dynamically provisioned, which persists beyond the lifecycle of a Pod",
   "details": {
     "steps": [
       {

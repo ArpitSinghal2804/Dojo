@@ -1,6 +1,6 @@
 {
   "title": "Deployment Basics",
-  "description": "Learn to create a deployment",
+  "description": "A Kubernetes resource used to manage the lifecycle of Pods, providing declarative updates and ensuring the desired number of replicas are running",
   "details": {
     "steps": [
       {
