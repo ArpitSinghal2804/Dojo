@@ -1,8 +1,8 @@
 {
     "items": [
-      { "path": "Ansible", "title": "Override title of course 1" },
-      { "path": "Docker", "title": "Override title of course 2" },
-      { "path": "GitHub", "title": "Override title of course 3" },
-      { "path": "Kubernetes", "title": "Override title of course 4" }
+      { "path": "Ansible", "title": "Ansible: An open-source automation tool that simplifies configuration management, application deployment, and task automation across multiple servers" },
+      { "path": "Docker", "title": "Docker: A platform that enables developers to package applications and their dependencies into containers for consistent deployment across environments" },
+      { "path": "GitHub", "title": "GitHub: A cloud-based platform for version control and collaboration, using Git to track and manage code changes in repositories" },
+      { "path": "Kubernetes", "title": "Kubernetes: An open-source container orchestration platform for automating the deployment, scaling, and management of containerized applications" }
     ]
 }
