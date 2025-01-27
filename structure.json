@@ -3,6 +3,7 @@
       { "path": "Ansible", "title": "Ansible: An open-source automation tool that simplifies configuration management, application deployment, and task automation across multiple servers" },
       { "path": "Docker", "title": "Docker: A platform that enables developers to package applications and their dependencies into containers for consistent deployment across environments" },
       { "path": "GitHub", "title": "GitHub: A cloud-based platform for version control and collaboration, using Git to track and manage code changes in repositories" },
+      { "path": "Jenkins", "title": "Jenkins: An open-source automation server that enables continuous integration and continuous delivery (CI/CD) by automating software build, test, and deployment processes" },
       { "path": "Kubernetes", "title": "Kubernetes: An open-source container orchestration platform for automating the deployment, scaling, and management of containerized applications" }
     ]
 }
