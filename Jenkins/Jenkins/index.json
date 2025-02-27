@@ -6,6 +6,10 @@
       {
         "title": "Install Jenkins",
         "text": "step1/text.md"
+      },
+      {
+        "title": "Jenkins Pipeline",
+        "text": "step2/text.md"
       }
     ],
     "finish": {
