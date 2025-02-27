@@ -1,6 +1,6 @@
 {
-  "title": "Jenkins Installation",
-  "description": "Jenkins installation sets up the automation server to streamline continuous integration and delivery processes for software projects",
+  "title": "Jenkins",
+  "description": "Jenkins sets up the automation server to streamline continuous integration and delivery processes for software projects",
   "details": {
     "steps": [
       {
